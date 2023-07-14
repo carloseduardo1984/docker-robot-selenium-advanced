@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "42720e1c-e426-46c2-874a-41a143cce4f9",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28130124"
+	},
+	"item": [
+		{
+			"name": "https://api.hubspot.com/api-catalog-public/v1/apis",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.hubspot.com/api-catalog-public/v1/apis",
+					"protocol": "https",
+					"host": [
+						"api",
+						"hubspot",
+						"com"
+					],
+					"path": [
+						"api-catalog-public",
+						"v1",
+						"apis"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"id": "b13adc3f-f521-4f39-8e73-8cdbaceb658e",
+	"values": [
+		{
+			"key": "url",
+			"value": "https://default-private-gw.int.apis.aws.pnetcloud.ch/evd/logistics/international/exchange/customs/clearance/document/v1/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "client-id",
+			"value": "4b04df51d01f466dfc794ce2e7c719cb",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "client-secret",
+			"value": "f4654cec0c8bd51e91c58a78c5817610",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "refresh-token",
+			"value": "eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.MwkJL7suj1qYBPgp1w0PEwAP7pxESEjUNVRQl8yve1rwEWmNMV9Z-N3Cn5O4DPD-0kTGPTlB23qJ4OaURgW2MIBJ2NYfQL-_xT23cvFNbzspbeaelvK47v9G61VacEdvF_HwdEk6iS5xzn6hyOmhr64a_HcaV4BZaYuZME2x6SZOnk5ItcyAAd5WuZLp1VPT4ogI-5RujZ-X7Cz1AgFPibaiIfHof5KfCWj6Ekz9quIxEPj12AoZ7hjFdRO87i06AfaxcXgg1Q3C5LySxK9zrp99misXuzbBkm2nzCwdlGICnq6oeQrc1UJ4Pl8cQ99uOgD0K40VtkiqooL4lSQejg.TbKjkfkGb4Afjze-.Gv5KxFLZlRpRK4qNPNshlVZPkiMQ5kRXKVgqMYGNXxaq1CIYw8jHMmkysqRW14xCZBtcClv52UQF28F6PziMAERK94GudNnhBkuBPvYdO3tF4w-2qcKkh7MAgh_FUoA-34KFEZSIRx5VYpz4A5j0-eLu6P_hRh2BVlsxzyOzMs8pRU9hTgJq_DxjHwwWC0l5dGSaaiwWehrBZN3pPojmLkNtsLWCJ9HqMhekIWxWBOCfOOi6l2aMQiqBHL0UewL29FP4vSyqwb5oa3v2RKFzOPxP6uGcpRd9th2caPanA-6bIZzDyI7ijRirm1z-VMo2wgU0vOqwTqdoebr7b8LtY8G2i6kAMuqqnkWWHBfG_9jb-6KRV2vXp5hQenfrHSpANHkmtV4lkHKfDZD022K1yrvZ843etkjXHLcxkMpQTN0AmO_YIK4bmw0ZmVeUJc8pmy6yfz5LiQJh5Ma5AOul4r9LrGTEQCNLyJ45H3sLnTfOtkbcSNxKAVdarUsGICj8O63mlz7lxeJt1bsLohZJcYddbAmyNbdiB5soZoUMCn7hsIZHtRF8yjeVwvgKIYBIioT7mYpUPDslf3UcTk564nq-dQkqeCM0DyO2o6Y6XEnwiLkAUTbkhEi9W45Ne07QpOprT7p_xDQvCfQUQE0HRfoqbpXo4GTGwC0DhcbckHFj4pTL6JjJv4qAtbcMT-KqmJg-0VFXkrDhf5MqNt_Z6yVRNFRwwSxvIPSi4dP1gusukM-4sAPnrw78fMtfmOhHtXnGUS3ZkBkqK6OeHV6AgmcUkzppkW1VyyK7oXBaFi1OXM5O.DpBT1HV7Nz2qCE-ePUA59Q",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "grant_type",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ACCESS_TOKEN",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-07-07T13:25:02.281Z",
+	"_postman_exported_using": "Postman/10.15.8"
+}

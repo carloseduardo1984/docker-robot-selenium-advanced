@@ -1,0 +1,25 @@
+version: "2.0"
+services:
+ devcontainer:
+    build: 
+      context: .
+      dockerfile: ./api/Dockerfile
+    volumes:
+     - ./api:/etc/newman
+    container_name: Integration_test    
+    image: postman_report
+    command:
+      run Test.postman_collection.json
+      --environment workspace.postman_globals.json
+      -r html,cli
+      --reporter-html-export report/report.html    
+      --reporter-html-template report/template.hbs
+
+
+
+      #  run Casos_de_teste.postman_collection.json
+      # --environment QA.postman_environment.json
+      # -r html,cli
+      # --reporter-html-export report/report.html    
+      # --reporter-html-template report/template.hbs
+        
