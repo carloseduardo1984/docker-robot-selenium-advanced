@@ -1,0 +1,40 @@
+name: docker-regression-test-automations
+on: 
+
+# schedule:
+ # - cron: '0 */6 * * 5'    # https://crontab.guru/ #
+  
+#   push:                   # PUSH ON BRANCH MAIN
+#     branches:
+#      - 'main'
+      
+  workflow_dispatch:       # MANUAL EXECUTION 
+ 
+env:
+  image_name: docker.tools.post.ch/nxt-chrome
+
+      
+jobs:
+  regression-tests:
+    runs-on: ubuntu-latest
+    steps:            
+           
+      - name: Checkout 🛎
+        uses: actions/checkout@v3
+
+      - name: Write the variables.robot file 📝
+        # use quotes around the secret, as its value
+        # is simply inserted as a string into the command
+        run: |
+          echo '${{ secrets.VARIABLES }}' > ./robot_src/variables.robot        
+      
+      - name: <<<<<-------- Running Docker Robot tests ------->>>>
+        run: docker-compose -f docker-compose-robot.yml up 
+                
+      - name: =========  Attaching  Report  ===========
+        uses: actions/upload-artifact@v2
+        with:
+          name: Report
+          path: robot_src/
+
+        
